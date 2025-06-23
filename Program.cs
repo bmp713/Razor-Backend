@@ -38,9 +38,9 @@ app.MapGet("/users", () => {
 app.MapPost("/users", (User user) => {
     Console.WriteLine($"/users/{user.id}", user);
 
-    // Write JSON to file
-    string existingJson = File.ReadAllText("Users.json");
-    List<User> users = JsonSerializer.Deserialize<List<User>>(existingJson);
+    // Read JSON from file
+    string json = File.ReadAllText("Users.json");
+    List<User> users = JsonSerializer.Deserialize<List<User>>(json);
 
     // Add the new user
     users.Add(user);
@@ -54,10 +54,22 @@ app.MapPost("/users", (User user) => {
     return Results.Created($"/users/{user.id}", user);
 });
 
-// app.MapGet("/users/{id:int}", (int id) =>
-// {
-//     var user = users.FirstOrDefault(u => u.Id == id);
-//     return user != null ? Results.Ok(user) : Results.NotFound();
-// });
+app.MapGet("/users/{id:int}", (int id) => {
+    Console.WriteLine($"/users/{id}");
+    
+    // Read JSON from file
+    string json = File.ReadAllText("Users.json");
+    var users = JsonSerializer.Deserialize<List<User>>(json);
+
+    // Find the user by id
+    var user = users.FirstOrDefault(u => u.id == id);
+    
+    if (user == null) {
+        return Results.NotFound();
+    }
+    
+    return Results.Ok(user);
+});
+
 
 app.Run();
