@@ -5,8 +5,10 @@ C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\obj\Debug\net8.0\Backend.As
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\obj\Debug\net8.0\Backend.csproj.CoreCompileInputs.cache
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\obj\Debug\net8.0\Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\obj\Debug\net8.0\Backend.sourcelink.json
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\appsettings.json
+C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\Users.json
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\Backend.exe
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\Backend.deps.json
 C:\Users\Owner\Downloads\Apps\NET\Blazor\Web\Backend\bin\Debug\net8.0\Backend.runtimeconfig.json

@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1757266890,
+    "firstName": "Steve ",
+    "lastName": "Jobs",
+    "email": "steve@apple.com",
+    "password": "AAA"
+  },
+  {
+    "id": 1150138024,
+    "firstName": "Brandon ",
+    "lastName": "Piper",
+    "email": "steve@apple.com",
+    "password": "AAA"
+  },
+  {
+    "id": 1432228977,
+    "firstName": "Steve",
+    "lastName": "Jobs",
+    "email": "steve@apple.com",
+    "password": "AAA"
+  },
+  {
+    "id": 1316963338,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "email": "steve@apple.com",
+    "password": "AAA"
+  }
+]
