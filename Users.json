@@ -1,16 +1,9 @@
 [
   {
-    "id": 1757266890,
-    "firstName": "Steve ",
+    "id": 1087739398,
+    "firstName": "Steve",
     "lastName": "Jobs",
     "email": "steve@apple.com",
-    "password": "AAA"
-  },
-  {
-    "id": 2132310555,
-    "firstName": null,
-    "lastName": null,
-    "email": "steve@apple.com",
-    "password": "AAA"
+    "password": "Welcome123"
   }
 ]
