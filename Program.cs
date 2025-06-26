@@ -14,6 +14,7 @@ builder.Services.AddCors(
 var app = builder.Build();
 app.UseCors();
 
+
 // GET all users
 app.MapGet("/users", () => {
         var users = ReadUsersFromFile();
@@ -87,8 +88,9 @@ app.MapDelete("/users/{id:int}", (int id) => {
 });
 
 // Helper function to read users from JSON file
-List<User> ReadUsersFromFile(){    if (!File.Exists("Users.json")){
-        
+List<User> ReadUsersFromFile(){    
+    if (!File.Exists("Users.json")){  
+          
         // Create the file if it doesn't exist with an empty array
         File.WriteAllText("Users.json", "[]");
         return new List<User>();

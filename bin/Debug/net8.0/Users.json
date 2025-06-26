@@ -1,16 +1,23 @@
 [
   {
-    "id": 1757266890,
-    "firstName": "Steve ",
+    "id": 1661163880,
+    "firstName": "Steve",
     "lastName": "Jobs",
     "email": "steve@apple.com",
-    "password": "AAA"
+    "password": "@Welcome123"
   },
   {
-    "id": 2132310555,
-    "firstName": null,
-    "lastName": null,
-    "email": "steve@apple.com",
-    "password": "AAA"
+    "id": 1509433214,
+    "firstName": "Michael",
+    "lastName": "Jordan",
+    "email": "bmp713@yahoo.com",
+    "password": "Welcome123"
+  },
+  {
+    "id": 1841599827,
+    "firstName": "Brandon",
+    "lastName": "Piper",
+    "email": "bmp711@yahoo.com",
+    "password": "Welcome123"
   }
 ]
