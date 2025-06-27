@@ -4,7 +4,7 @@
     "firstName": "Steve",
     "lastName": "Jobs",
     "email": "steve@apple.com",
-    "password": "@Welcome123"
+    "password": "@Welcome310"
   },
   {
     "id": 1509433214,
@@ -14,10 +14,17 @@
     "password": "Welcome123"
   },
   {
-    "id": 1841599827,
-    "firstName": "Brandon",
-    "lastName": "Piper",
-    "email": "bmp711@yahoo.com",
-    "password": "Welcome123"
+    "id": 2131368735,
+    "firstName": "Richard",
+    "lastName": "Feynman",
+    "email": "feynman@gmail.com",
+    "password": "@Welcome123"
+  },
+  {
+    "id": 1472499703,
+    "firstName": "Linus",
+    "lastName": "Torvalds",
+    "email": "linus@apple.com",
+    "password": "@Welcome310"
   }
 ]

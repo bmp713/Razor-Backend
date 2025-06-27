@@ -26,5 +26,12 @@
     "lastName": "Torvalds",
     "email": "linus@apple.com",
     "password": "@Welcome310"
+  },
+  {
+    "id": 1607405844,
+    "firstName": "First",
+    "lastName": "Last",
+    "email": "first@apple.com",
+    "password": "@Welcome310"
   }
 ]
